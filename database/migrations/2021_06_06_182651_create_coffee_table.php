@@ -13,13 +13,24 @@ class CreateCoffeeTable extends Migration
      */
     public function up()
     {
+
         Schema::create('coffee', function (Blueprint $table) {
             $table->id();
+            $table->increments(id);
             $table->timestamps();
             $table->string('coffeename');
             $table->integer('caffvalue');
             $table->integer('serving');
         });
+
+
+        DB::table('coffee')->insert([
+            ['monsterultrasunrise' => '75', '2'],
+            ['blackcoffee' => '95', '1'],
+            ['americano' => '77', '1'],
+            ['sugarfreenos' => '130', '2'],
+            ['5hourenergy' => '200', '1'],
+        ]);
     }
 
     /**
