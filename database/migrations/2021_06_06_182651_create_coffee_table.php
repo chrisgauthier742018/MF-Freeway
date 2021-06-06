@@ -23,7 +23,8 @@ class CreateCoffeeTable extends Migration
             $table->integer('serving');
         });
 
-
+        //I couldn't get this working
+        /*
         DB::table('coffee')->insert([
             ['monsterultrasunrise' => '75', '2'],
             ['blackcoffee' => '95', '1'],
@@ -31,6 +32,7 @@ class CreateCoffeeTable extends Migration
             ['sugarfreenos' => '130', '2'],
             ['5hourenergy' => '200', '1'],
         ]);
+        */
     }
 
     /**
