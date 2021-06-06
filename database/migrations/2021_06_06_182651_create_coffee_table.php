@@ -24,6 +24,8 @@ class CreateCoffeeTable extends Migration
         });
 
         //I couldn't get this working
+        //as a workaround, I manually added the entries into the coffee table.
+        //If i had more time, i'd dig in here 
         /*
         DB::table('coffee')->insert([
             ['monsterultrasunrise' => '75', '2'],
