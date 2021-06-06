@@ -19,8 +19,9 @@ class FormController extends Controller
         print_r($request->cafftypes);
 
         //validating the form with requirements
+
         $validated = $request->validate([
-            'numofcups' => 'required|max:2|integer'
+            'numofcups' => 'required|max:100|integer'
 
         ]);
 
