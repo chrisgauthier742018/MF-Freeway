@@ -82,7 +82,7 @@
                         </select>
                     </div>
                     <div class="col-lg-3">
-                        <input class="input" type="text" id="monsterultra" name="numofcups"><br><br>
+                        <input class="input" type="text" id="numofcups" name="numofcups"><br><br>
                     </div>
                 </div>
                 <div class="col-lg-12">
